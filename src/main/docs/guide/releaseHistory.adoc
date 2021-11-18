@@ -1,3 +1,13 @@
 For this project, you can find a list of releases (with release notes) here:
 
+This documentation do not include how i have to use redis cache, so i have the next error when i tried to add.
+
+18:07:07.296 [default-nioEventLoopGroup-1-12] ERROR i.m.h.s.netty.RoutingInBoundHandler - Unexpected error occurred: I/O error occurred during serialization: io.micronaut.discovery.eureka.EurekaServiceInstance
+io.micronaut.core.serialize.exceptions.SerializationException: I/O error occurred during serialization: io.micronaut.discovery.eureka.EurekaServiceInstance
+
+if i used default cache or not use cache, i get the next error:
+i.m.h.s.netty.RoutingInBoundHandler - Unexpected error occurred: No cache configured for name: discovery-client
+
+
+
 https://github.com/{githubSlug}/releases[https://github.com/{githubSlug}/releases]
